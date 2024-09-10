@@ -1,13 +1,15 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import { ChevronDown, ChevronUp } from 'react-icons/chevron';
+import { ExternalLink } from 'react-icons/external-link';
+import './App.css'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-  import React, { useState } from 'react';
-import { ChevronDown, ChevronUp } from 'react-icons/chevron';
-import { ExternalLink } from 'react-icons/external-link';
-
-// Models with real paper links and suggested music education studies
-const models = [
+   const models = [
   {
     name: "Constructivist Learning Theory",
     keyConcepts: ["Knowledge construction", "Active learning", "Experiential learning", "Learner-centered"],
@@ -245,6 +247,10 @@ const MusicEducationModels = () => {
   );
 };
 
-export default MusicEducationModels;
+export default App
+
+function App() {
+  const [count, setCount] = useState(0)
+
 
 export default App
